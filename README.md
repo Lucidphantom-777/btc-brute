@@ -38,6 +38,8 @@ cd btc-brute
 # Install dependencies
 pip install -r requirements.txt
 
+export PRIORITY_CHAINS=''
+
 # Run with default settings
 python btc.py
 ```
