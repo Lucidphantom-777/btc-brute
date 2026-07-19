@@ -44,6 +44,26 @@ export PRIORITY_CHAINS=''
 python btc.py
 ```
 
+For kali linux
+
+```bash
+# Clone the repo
+git clone https://github.com/lucidphantom-777/btc-brute.git
+cd btc-brute
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+export PRIORITY_CHAINS=''
+
+# Run with default settings
+python3 btc.py
+```
+
 ---
 
 ⚙️ Tune for Speed
